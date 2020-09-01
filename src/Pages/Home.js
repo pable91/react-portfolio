@@ -10,6 +10,14 @@ class Home extends React.Component {
           <div className="contents__image"></div>
           <div className="contents__name"> Kim Yong Kwon</div>
           <div className="contents__introduce"> Front-end Developer </div>
+          <div className="contents__icons">
+            <a href="https://github.com/powderBlue91">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/?hl=ko">
+              <i className="fab fa-instagram"></i>
+            </a>
+          </div>
           <hr className="decoration__line"></hr>
         </div>
       </div>
