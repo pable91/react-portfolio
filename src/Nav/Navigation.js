@@ -4,17 +4,17 @@ import "./Navigation.css";
 
 function Navigation() {
   return (
-    <div class="navigation">
-      <Link class="link" to="/">
+    <div className="navigation">
+      <Link className="link" to="/">
         Home
       </Link>
-      <Link class="link" to="/about">
+      <Link className="link" to="/about">
         About
       </Link>
-      <Link class="link" to="/project">
+      <Link className="link" to="/project">
         Project
       </Link>
-      <Link class="link" to="/contact">
+      <Link className="link" to="/contact">
         Contact
       </Link>
     </div>

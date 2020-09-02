@@ -5,7 +5,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home">
-        <div className="contents">
+        <section className="contents">
           <hr className="decoration__line"></hr>
           <div className="contents__image"></div>
           <div className="contents__name"> Kim Yong Kwon</div>
@@ -19,7 +19,7 @@ class Home extends React.Component {
             </a>
           </div>
           <hr className="decoration__line"></hr>
-        </div>
+        </section>
       </div>
     );
   }
