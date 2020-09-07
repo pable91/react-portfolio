@@ -5,7 +5,7 @@
 
 .about__contents {
   width: 1200px;
-  height: 750px;
+  height: 700px;
 
   transform: translateY(100px);
 
@@ -20,10 +20,11 @@
 
 .about__contents__who {
   background-color: green;
-  height: 55%;
+  height: 65%;
 }
 
-.about__contents__who__subject {
+.about__contents__who__subject,
+.about__contents__skill__subject {
   text-align: left;
   margin-left: 80px;
 
@@ -32,6 +33,16 @@
   color: white;
   font-size: 40px;
   font-style: oblique;
+}
+
+.about__contents__skill__stack {
+  color: white;
+  font-size: 23px;
+  font-style: oblique;
+
+  text-decoration: underline;
+
+  margin-top: 20px;
 }
 
 .about__contents__who__image {
@@ -97,4 +108,29 @@
 
   margin-left: 40px;
   background-color: yellow;
+}
+
+.about__contents__skill__list {
+  margin-top: 20px;
+  padding-left: 0px;
+}
+
+.about__contents__skill__list li {
+  display: inline-block;
+
+  margin-right: 50px;
+  font-size: 20px;
+
+  margin-top: 20px;
+  /* background-color: white; */
+}
+
+.about__contents__skill__list li img {
+  width: 100px;
+  height: 85px;
+}
+.about__contents__skill__list li span {
+  text-align: center;
+  display: block;
+  color: black;
 }
