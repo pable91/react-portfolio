@@ -1,0 +1,41 @@
+#project {
+  display: flex;
+  justify-content: center;
+}
+
+.project__contents {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 1200px;
+  height: 700px;
+
+  transform: translateY(100px);
+
+  background-color: rgb(34, 51, 51, 1);
+  border-radius: 20px;
+
+  text-align: center;
+
+  overflow: auto;
+}
+
+.project__contents__object {
+  display: inline-block;
+
+  width: 25%;
+  height: 50%;
+
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  background-color: white;
+}
+
+.project__contents__object .subject {
+  font-size: 30px;
+  text-align: center;
+  height: 30%;
+}

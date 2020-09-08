@@ -5,7 +5,7 @@ import myImg from "./YongKwon.jpg";
 class About extends React.Component {
   render() {
     return (
-      <div className="about">
+      <div id="about">
         <section className="about__contents">
           <article className="about__contents__who">
             <div className="about__contents__who__subject">who?</div>
