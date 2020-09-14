@@ -11,7 +11,8 @@ body {
   display: flex;
   justify-content: center;
 }
-.contents {
+
+.home__contents {
   width: 60%;
   height: 500px;
   text-align: center;

@@ -5,7 +5,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home">
-        <section className="contents">
+        <section className="home__contents">
           <hr className="decoration__line"></hr>
           <div className="contents__image"></div>
           <div className="contents__name"> Kim Yong Kwon</div>
