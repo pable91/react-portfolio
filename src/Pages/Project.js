@@ -10,30 +10,48 @@ class Project extends React.Component {
             <div
               className="subject"
               style={{
-                backgroundColor: "blue",
+                backgroundColor: "black",
               }}
             >
-              HTML, CSS
+              <span style={{ color: "rgb(209, 180, 140, 1)" }}>HTML, CSS</span>
+            </div>
+            <div className="introduce">
+              <h3>Project1</h3>
+              <p>dasdsassssssssssssssssssssssssssssssssssssssssssssssss</p>
             </div>
           </div>
           <div className="project__contents__object">
             <div
               className="subject"
               style={{
-                backgroundColor: "blue",
+                backgroundColor: "rgb(54, 52, 53, 1)",
               }}
             >
-              HTML, CSS
+              <span style={{ color: "rgb(209, 180, 140, 1)" }}>HTML, CSS</span>
+            </div>
+            <div className="introduce">
+              <h3>Project2</h3>
+              <p>
+                dasdsa dsadasdasdasddasdasdasdasdasdasdsadsadasdas
+                asdasdasdasdasdasdasdasdasdasdasdasdasdasdas
+              </p>
             </div>
           </div>
           <div className="project__contents__object">
             <div
               className="subject"
               style={{
-                backgroundColor: "blue",
+                backgroundColor: "rgb(85, 17, 18, 1)",
               }}
             >
-              React
+              <span style={{ color: "rgb(209, 180, 140, 1)" }}>React</span>
+            </div>
+            <div className="introduce">
+              <h3>Project3</h3>
+              <p>
+                dasdsa dsadasdasdasddasdasdasdasdasdasdsadsadasdas
+                asdasdasdasdasdasdasdasdasdasdasdasdasdasdas
+              </p>
             </div>
           </div>
 
@@ -41,10 +59,19 @@ class Project extends React.Component {
             <div
               className="subject"
               style={{
-                backgroundColor: "blue",
+                backgroundColor: "rgb(34, 152, 152, 1)",
               }}
             >
-              JAVA SCRIPT FULL STACK
+              <span style={{ color: "rgb(209, 180, 140, 1)" }}>
+                JAVA SCRIPT<br></br>FULL STACK
+              </span>
+            </div>
+            <div className="introduce">
+              <h3>Project4</h3>
+              <p>
+                dasdsa dsadasdasdasddasdasdasdasdasdasdsadsadasdas
+                asdasdasdasdasdasdasdasdasdasdasdasdasdasdas
+              </p>
             </div>
           </div>
           <div className="project__contents__object">
@@ -54,7 +81,16 @@ class Project extends React.Component {
                 backgroundColor: "blue",
               }}
             >
-              JAVA SCRIPT
+              <span style={{ color: "rgb(209, 180, 140, 1)" }}>
+                JAVA SCRIPT
+              </span>
+            </div>
+            <div className="introduce">
+              <h3>Project5</h3>
+              <p>
+                dasdsa dsadasdasdasddasdasdasdasdasdasdsadsadasdas
+                asdasdasdasdasdasdasdasdasdasdasdasdasdasdas
+              </p>
             </div>
           </div>
           <div className="project__contents__object">
@@ -64,7 +100,16 @@ class Project extends React.Component {
                 backgroundColor: "blue",
               }}
             >
-              JAVA SCRIPT FULL STACK
+              <span style={{ color: "rgb(209, 180, 140, 1)" }}>
+                JAVA SCRIPT<br></br>FULL STACK
+              </span>
+            </div>
+            <div className="introduce">
+              <h3>Project6</h3>
+              <p>
+                dasdsa dsadasdasdasddasdasdasdasdasdasdsadsadasdas
+                asdasdasdasdasdasdasdasdasdasdasdasdasdasdas
+              </p>
             </div>
           </div>
         </section>
