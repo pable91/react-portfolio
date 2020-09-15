@@ -19,7 +19,6 @@
 }
 
 .about__contents__who {
-  background-color: green;
   height: 65%;
 }
 
@@ -59,14 +58,13 @@
   /* display: inline-block; */
   transform: translate(45%, -200px);
 
-  background-color: blue;
-
   height: 300px;
   width: 65%;
 }
 
 .about__contents__who__text ul {
   transform: translateY(20px);
+  text-align: center;
 }
 
 .about__contents__who__text li {
@@ -74,8 +72,8 @@
 
   list-style: none;
 
-  height: 65px;
-  width: 65px;
+  height: 68px;
+  width: 68px;
 
   border-radius: 100px;
   margin-right: 45px;
@@ -92,7 +90,7 @@
 }
 
 .about__contents__who__text ul li hr {
-  width: 35px;
+  width: 37px;
   border: dotted 2px black;
 
   transform: translate(140%, -50px);
@@ -104,10 +102,9 @@
 
 .about__contents__who__text__intruduce {
   width: 90%;
-  height: 170px;
+  height: 200px;
 
   margin-left: 40px;
-  background-color: yellow;
 }
 
 .about__contents__skill__list {
@@ -115,20 +112,26 @@
   padding-left: 0px;
 }
 
+.icon {
+  background-color: wheat;
+
+  border-radius: 5px;
+}
+
 .about__contents__skill__list li {
   display: inline-block;
 
   margin-right: 50px;
-  font-size: 20px;
-
   margin-top: 20px;
-  /* background-color: white; */
+
+  font-size: 20px;
 }
 
 .about__contents__skill__list li img {
   width: 100px;
   height: 85px;
 }
+
 .about__contents__skill__list li span {
   text-align: center;
   display: block;
