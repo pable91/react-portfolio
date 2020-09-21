@@ -49,7 +49,7 @@
   margin-left: 12px;
   margin-right: 12px;
 
-  height: 55%;
+  height: 52%;
 
   /* background-color: coral; */
   font-size: 15px;
@@ -59,7 +59,9 @@
 .introduce__link {
   display: inline-block;
   margin-left: 15px;
-  font-weight: 400;
+  font-weight: 700;
+
+  text-decoration: none;
 }
 
 .project__contents__object .subject {
